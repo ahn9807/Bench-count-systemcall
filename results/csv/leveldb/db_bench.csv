@@ -1,0 +1,2 @@
+bench name,argument,systemcall
+db_bench,./leveldb/db_bench,write,fdatasync,unlink,openat,munmap,close,mmap,mprotect,stat,read,getdents64,fstat,rename,mkdir,fcntl,brk,rmdir,pread64,access,madvise,set_robust_list,clone,rt_sigaction,prlimit64,rt_sigprocmask,arch_prctl,geteuid,set_tid_address,lseek,execve,clock_nanosleep,

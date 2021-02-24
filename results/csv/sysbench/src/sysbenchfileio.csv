@@ -1,0 +1,2 @@
+bench name,argument,systemcall
+sysbench,./sysbench/src/sysbench fileio cleanup,mprotect,munmap,write,brk,rt_sigaction,mmap,rt_sigprocmask,set_tid_address,set_robust_list,prlimit64,read,close,fstat,pread64,access,execve,arch_prctl,openat,

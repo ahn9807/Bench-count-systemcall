@@ -1,0 +1,2 @@
+bench name,argument,systemcall
+bfs,./gapbs/bfs -g 10 -n 1,mmap,set_robust_list,futex,clone,openat,getdents64,close,munmap,fstat,read,brk,rt_sigaction,write,pread64,sched_getaffinity,arch_prctl,set_tid_address,prlimit64,rt_sigprocmask,access,execve,

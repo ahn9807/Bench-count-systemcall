@@ -1,0 +1,2 @@
+bench name,argument,systemcall
+sysbench,./sysbench/src/sysbench threads run,sched_yield,madvise,alarm,read,write,close,fstat,mmap,mprotect,munmap,brk,rt_sigaction,rt_sigprocmask,pread64,access,clone,execve,arch_prctl,set_tid_address,openat,set_robust_list,prlimit64,

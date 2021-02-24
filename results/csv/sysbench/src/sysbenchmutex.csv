@@ -1,0 +1,2 @@
+bench name,argument,systemcall
+sysbench,./sysbench/src/sysbench mutex run,write,close,fstat,mmap,mprotect,munmap,brk,rt_sigaction,rt_sigprocmask,pread64,access,madvise,alarm,clone,execve,arch_prctl,futex,set_tid_address,openat,set_robust_list,prlimit64,

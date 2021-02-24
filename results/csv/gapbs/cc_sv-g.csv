@@ -1,0 +1,2 @@
+bench name,argument,systemcall
+cc_sv,./gapbs/cc_sv -g 10 -n 1,mmap,mprotect,set_robust_list,clone,openat,fstat,pread64,close,read,arch_prctl,access,brk,execve,write,munmap,rt_sigaction,rt_sigprocmask,sched_getaffinity,getdents64,set_tid_address,prlimit64,

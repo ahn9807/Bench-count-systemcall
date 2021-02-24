@@ -1,0 +1,2 @@
+bench name,argument,systemcall
+sysbench,./sysbench/src/sysbench memory --memory-oper=read run,mmap,mprotect,pread64,openat,fstat,close,read,brk,munmap,rt_sigaction,arch_prctl,access,rt_sigprocmask,execve,set_tid_address,set_robust_list,prlimit64,write,madvise,alarm,clone,

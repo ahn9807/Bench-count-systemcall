@@ -1,0 +1,2 @@
+bench name,argument,systemcall
+make,make rerun,lstat,lseek,fstat,openat,read,stat,close,mmap,brk,access,mprotect,fcntl,write,unlink,rt_sigaction,munmap,dup2,pread64,ioctl,unlinkat,prlimit64,rt_sigreturn,execve,vfork,clone,arch_prctl,getpid,pipe2,readlink,sysinfo,newfstatat,pipe,statfs,rt_sigprocmask,getdents64,umask,chmod,getrusage,geteuid,uname,getegid,set_tid_address,futex,set_robust_list,getppid,chdir,getuid,getgid,getcwd,getpgrp,getgroups,sigaltstack,fadvise64,faccessat,

@@ -1,0 +1,2 @@
+bench name,argument,systemcall
+sssp,./gapbs/sssp -g 10 -n 1,write,munmap,mmap,mprotect,read,close,fstat,brk,rt_sigaction,rt_sigprocmask,pread64,access,clone,execve,arch_prctl,sched_getaffinity,getdents64,set_tid_address,openat,set_robust_list,prlimit64,

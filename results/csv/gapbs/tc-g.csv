@@ -1,0 +1,2 @@
+bench name,argument,systemcall
+tc,./gapbs/tc -g 10 -n 1,set_robust_list,write,mprotect,mmap,munmap,clone,openat,pread64,fstat,close,read,getdents64,brk,execve,arch_prctl,rt_sigaction,access,sched_getaffinity,rt_sigprocmask,set_tid_address,prlimit64,
