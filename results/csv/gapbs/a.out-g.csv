@@ -1,0 +1,2 @@
+bench name,argument,systemcall
+a.out,gapbs/a.out -g 10 -n 1,write,close,fstat,mmap,mprotect,munmap,brk,pread64,access,execve,arch_prctl,openat,
